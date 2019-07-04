@@ -1,0 +1,71 @@
+.block
+{
+  border : 1px solid black;
+  height: 60px;
+  width : 60px;
+  display:  inline-block;
+  margin: 0;
+}
+h2
+{
+
+  text-align: center;
+}
+h3
+{
+  position: absolute;
+}
+#firstsnake
+{
+  transform: rotate(180deg);
+  position: absolute;
+  margin-top: 262px;
+  margin-left: 130px;
+}
+#secondsnake
+{
+  height: 360px;
+  width: 30px;
+  transform: rotate(180deg);
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 240px;
+}
+#thirdsnake
+{
+  height: 40px;
+  width: 570px;
+  transform: rotate(90deg);
+  position: absolute;
+  margin-top: 390px;
+  margin-left: 250px;
+}
+#fourthsnake
+{
+  height: 170px;
+  width : 30px;
+  transform: rotate(180deg);
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 40px;
+}
+#fifthsnake
+{
+  height: 160px;
+  width : 25px;
+  transform: rotate(210deg);
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 480px;
+}
+.snakeaction
+{
+  height: 700px;
+  width: 700px;
+  position: absolute;
+}
+.player
+{
+  font-size: 3rem;
+  margin: 4px;
+}
